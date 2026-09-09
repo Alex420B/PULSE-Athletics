@@ -37,8 +37,9 @@ navbar a {
 
 
 navbar a:hover {
-  background-color: #ddd;
+  background-color: #f9f9f9;
   color: black;
+  
 }
 
 
@@ -71,5 +72,16 @@ navbar input[type=text] {
   }
   navbar input[type=text] {
     border: 1px solid #ccc;
+  }
+}
+.slogan {
+  text-align: center;
+}
+
+table {
+  margin-left: auto;
+  margin-right: auto;
+  td {
+    text-align: center;
   }
 }
