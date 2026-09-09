@@ -7,15 +7,24 @@
 
 }
 
+.logo {
+    position: center;
+    margin: 50% 50%;
+    width: 250px;
+    height: 200px;
+    border: 1px solid #ccc;
+    
+}
 
 #pulse-logo {
     position: center;
-    margin-left: 50px;
-    width: 100px;
-    height: 100px;
+    margin: 0%;
+    width: 250px;
+    height: 200px;
     
-
 }
+
+
 
 
 
