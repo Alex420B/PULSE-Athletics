@@ -7,11 +7,16 @@
 
 }
 
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 .logo {
     position: relative;
     display: block;
     margin: auto;
-    
+    background-color: white;
+    border-color: white;
 }
 
 navbar {
@@ -49,6 +54,9 @@ navbar input[type=text] {
   margin-top: 8px;
   margin-right: 16px;
   font-size: 17px;
+  border-radius: 10px;
+  border-color:gray;
+  border: solid;
 }
 
 /* When the screen is less than 600px wide, stack the links and the search field vertically instead of horizontally */
