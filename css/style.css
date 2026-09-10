@@ -12,6 +12,7 @@ body {
   background: linear-gradient(to bottom, #545b62, #262a2b);
   background-repeat: no-repeat;
   background-attachment: fixed;
+  color: white; 
 }
 
 .logo {
@@ -20,6 +21,21 @@ body {
     margin: auto;
     background-color: white;
     border-color: white;
+}
+
+.cart {
+  position: absolute;
+  margin-left: 95%;
+  margin-top: -100px;
+  width: 30px;
+  height: 30px;
+}
+.user {
+  position: absolute;
+  margin-left: 92%;
+  margin-top: -100px;
+  width: 30px;
+  height: 30px;
 }
 
 navbar {
@@ -35,14 +51,14 @@ navbar a {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 20px;
 }
 
 
 navbar a:hover {
-  background-color: #f9f9f9;
+  background-color: white;
   color: black;
-  
+  border: 1px solid black;
 }
 
 
@@ -57,7 +73,7 @@ navbar input[type=text] {
   border: none;
   margin-top: 8px;
   margin-right: 16px;
-  font-size: 17px;
+  font-size: 18px;
   border-radius: 10px;
   border-color:gray;
   border: solid;
@@ -77,6 +93,13 @@ navbar input[type=text] {
     border: 1px solid #ccc;
   }
 }
+.content {
+  margin-left: 30px;
+}
+.support {
+  margin-left: 50%;
+}
+
 .slogan {
   position: absolute;
   margin-top: 300px;
@@ -84,6 +107,10 @@ navbar input[type=text] {
   color: white;
   font-size: 12px;
 
+}
+
+video {
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.50);
 }
 
 .products {
@@ -190,15 +217,19 @@ footer button {
 background-color: #000000;
 color: #f9f9f9;
 position: fixed;
-left: 1px;
+right: 1px;
 top: 50%;
 text-orientation: mixed;
 writing-mode: vertical-rl;
 
 }
 
+<<<<<<< HEAD
+=======
 hr {
     border: none;
     border-top: 2px solid #d9d9d9;
     margin: 0;
 }
+>>>>>>> 0627cdf897e1dde27b06c93ea9d4c7831ae6f2cc
+
