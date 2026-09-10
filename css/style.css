@@ -146,6 +146,16 @@ footer {
   margin-top: 50px;
 }
 
+.social-icons {
+  display: flex;
+  justify-content: right;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+
+
+
 footer button {
   font-family: Helvetica, Neue sans-serif;
   background-color: #ffffff;
