@@ -176,7 +176,16 @@ footer button {
 
 background-color: #000000;
 color: #f9f9f9;
+position: fixed;
+left: 1px;
+top: 50%;
+text-orientation: mixed;
+writing-mode: vertical-rl;
 
+}
 
-
+hr {
+    border: none;
+    border-top: 3px solid black;
+    margin: 0;
 }
