@@ -217,7 +217,7 @@ footer button {
 background-color: #000000;
 color: #f9f9f9;
 position: fixed;
-height: 1px;
+right: 1px;
 top: 50%;
 text-orientation: mixed;
 writing-mode: vertical-rl;
