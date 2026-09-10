@@ -175,3 +175,20 @@ footer button {
   border-radius: 5px;
   cursor: no-drop;
 }
+.discount {    
+
+background-color: #000000;
+color: #f9f9f9;
+position: fixed;
+left: 1px;
+top: 50%;
+text-orientation: mixed;
+writing-mode: vertical-rl;
+
+}
+
+hr {
+    border: none;
+    border-top: 2px solid #d9d9d9;
+    margin: 0;
+}
