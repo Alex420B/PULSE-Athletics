@@ -140,8 +140,18 @@ navbar input[type=text] {
 }
 
 footer {
-  background-color: #f1f1f1;
+  background-color: lab(95.37% 1 0.34);
   padding: 20px;
   text-align: center;
   margin-top: 50px;
+}
+
+footer button {
+  font-family: Helvetica, Neue sans-serif;
+  background-color: #ffffff;
+  color: black;
+  padding: 10px 20px;
+  border: solid 1px #000000;
+  border-radius: 5px;
+  cursor: no-drop;
 }
