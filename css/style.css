@@ -132,13 +132,11 @@ navbar input[type=text] {
   color: white;
 }
 
-table {
-  margin-left: auto;
-  margin-right: auto;
-}
-
-table td {
-  text-align: center;
+.cycle-pic {
+  width: 50%;
+  height: 50%;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
 }
 
 footer {
