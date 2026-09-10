@@ -79,7 +79,7 @@ navbar input[type=text] {
   margin-right: 16px;
   font-size: 18px;
   border-radius: 10px;
-  border-color:gray;
+  border-color:grey;
   border: solid;
 }
 
@@ -184,7 +184,7 @@ video {
   color: white;          
   padding: 10px 10px;    
   border: none;          
-  border-radius: 2px;   
+  border-radius: 5px;   
   cursor: pointer;       
   font-size: 16px;       
 }
@@ -192,6 +192,7 @@ video {
 
 footer {
   background-color: lab(95.37% 1 0.34);
+  color:black;
   padding: 20px;
   text-align: center;
   margin-top: 50px;
@@ -202,10 +203,8 @@ footer {
   justify-content: right;
   gap: 10px;
   margin-top: 10px;
+  margin-bottom: 10px;
 }
-
-
-
 
 footer button {
   font-family: Helvetica, Neue sans-serif;
