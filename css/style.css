@@ -211,17 +211,27 @@ table {
 }
 
 #app-mockup {
-  grid-column: 2;
-  grid-row: 1 / span 3;
+  position: absolute;
+  margin-left: 57%;
+  Margin-top: -888px;
 }
 
-#app-info {
+.app-info-title{
+  text-align: center;
+  margin-left: 50%;
+  margin-top: -180px;
+  width: auto;
+  letter-spacing: 2px;
+  word-spacing: 4px;
+}
+.app-info {
 text-align: left;
-margin: 0;
+margin-left: 55%;
+margin-top: -150px;
 width: auto;
 letter-spacing: 2px;
-word-spacing: 4px;
-
+word-spacing: 3px;
+padding-bottom: 20px;
 }
 
 .Newsletter{
