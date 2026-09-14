@@ -135,7 +135,6 @@ video {
   flex-direction: row;
   justify-content: space-evenly;
 }
-<<<<<<< HEAD
 .sec-features {
   display: flex;
   flex-direction: column;
@@ -146,18 +145,6 @@ video {
 .sec-features h2 {
   text-align: center;
   text-decoration: underline;
-=======
-table td{
-  padding-left: 20px;
-  padding-right: 20px;
-  text-align: left;
-  
-}
-table td h2{
-  line-height: 2;
-  font-weight: 700;
-  text-align:center;
->>>>>>> 4babfe17b6eaa5a8f2bc34db8a8100c96ef2778d
 }
 
 
