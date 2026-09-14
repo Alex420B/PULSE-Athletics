@@ -130,6 +130,9 @@ video {
 
 table {
   margin: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 table td{
   padding-left: 20px;
