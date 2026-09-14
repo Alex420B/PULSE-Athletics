@@ -211,15 +211,15 @@ table {
 }
 
 #app-mockup {
-  position: absolute;
-  margin-left: 57%;
-  Margin-top: -888px;
+  position: relative;
+  margin-left: 60%;
+  Margin-top: -900px;
 }
 
 .app-info-title{
   text-align: center;
   margin-left: 50%;
-  margin-top: -180px;
+  margin-top: -100px;
   width: auto;
   letter-spacing: 2px;
   word-spacing: 4px;
@@ -227,7 +227,7 @@ table {
 .app-info {
 text-align: left;
 margin-left: 55%;
-margin-top: -150px;
+margin-top: -70px;
 width: auto;
 letter-spacing: 2px;
 word-spacing: 3px;
