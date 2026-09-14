@@ -180,7 +180,8 @@ video {
   flex: 1;
   padding: 28px 14px 12px;
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
+  flex-direction: row;
   color:black;
 }
 
