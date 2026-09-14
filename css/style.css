@@ -19,7 +19,6 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   color: white; 
-
 }
 
 .features{
@@ -167,6 +166,7 @@ video {
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25);
   display: flex;
   flex-direction: column;
+  margin: 10px 10px;
 }
 
 .item img {
@@ -236,8 +236,11 @@ video {
 #cycle-pic {
   height: 1000px;
   width: 800px;
+  margin: 15px;
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
+
+
   
 }
 #app-mockup {
@@ -255,7 +258,7 @@ video {
 
 .Newsletter{
 text-align: center;
-font-size: 50px;
+font-size: px;
 margin-top: 20px;
 }
 
