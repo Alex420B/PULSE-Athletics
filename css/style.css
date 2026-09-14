@@ -131,8 +131,10 @@ table {
   margin: 20px;
 }
 table td{
-  padding: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
   text-align: center;
+  
 }
 table td h2{
   line-height: 2;
@@ -177,9 +179,10 @@ table td p{
   padding: 28px 14px 12px;
   display: flex;
   flex-direction: column;
+  color:black;
 }
 
-.buy-btn {
+#buy-btn {
   align-self: flex-end;
   margin-top: auto;
   padding: 8px 20px;
@@ -192,7 +195,7 @@ table td p{
   transition: 0.2s;
 }
 
-.buy-btn:hover {
+#buy-btn:hover {
   background-color: #111;
   color: white;
 }
