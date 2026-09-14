@@ -240,7 +240,8 @@ video {
   
 }
 #app-mockup {
-  margin-left: 150px;
+  margin-left: 120px;
+  
 }
 #app-info-title {
   padding-left: 230px;
@@ -248,7 +249,7 @@ video {
 }
 #app-info {
   padding-left: 120px;
-  padding-right: 200px;
+  padding-right: 75px;
 }
 
 .Newsletter{
