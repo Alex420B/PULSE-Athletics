@@ -137,13 +137,13 @@ table {
 table td{
   padding-left: 20px;
   padding-right: 20px;
-  text-align: center;
+  text-align: left;
   
 }
 table td h2{
   line-height: 2;
   font-weight: 700;
-  text-decoration: underline;
+  text-align:center;
 }
 table td h3{
   margin-bottom: 10px;
