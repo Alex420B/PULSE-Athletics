@@ -144,13 +144,12 @@ video {
   padding: 10px 10px 40px 10px;
   justify-content: space-evenly;
   border: 1px solid #bdbfbf;
-  border-radius: 10px;
+  border-radius: 5px;
 }
 .sec-features h2 {
   text-align: center;
   text-decoration: underline;
 }
-
 
 .products {
   display: flex;
@@ -203,13 +202,6 @@ video {
   color: white;
 }
 
-.cycle-pic {
-  width: 50%;
-  height: 50%;
-  border-top-right-radius: 5px;
-  border-bottom-right-radius: 5px;
-}
-
 .sticky-button {
   position: fixed;
   text-orientation: mixed;
@@ -226,29 +218,37 @@ video {
   font-size: 16px;       
 }
 
- .app-section {
+.app-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 50px;
+
+}
+.app-sec {
   display: flex;
   flex-direction: column;
-  align-items: start;
-  margin-left: 55%;
-  margin-top: -905px;
+  align-content: center;
+  text-align: left;
+}
+#cycle-pic {
+  height: 1000px;
+  width: 800px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  
 }
 #app-mockup {
-  margin: 10px 10px 20px 10px;
+  margin-left: 150px;
 }
-.app-info-title{
-  text-align: center;
-  width: auto;
-  letter-spacing: 2px;
-  word-spacing: 4px;
+#app-info-title {
+  padding-left: 230px;
+  padding-bottom: 10px;
 }
-.app-info {
-text-align: left;
-width: auto;
-margin-right: 35px;
-letter-spacing: 2px;
-word-spacing: 3px;
-padding-bottom: 20px;
+#app-info {
+  padding-left: 120px;
+  padding-right: 200px;
 }
 
 .Newsletter{
