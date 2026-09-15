@@ -239,6 +239,11 @@ video {
   margin: 15px;
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
+
+  #LÆSMERE{
+    display: flex;
+
+  }
 }
 
 #app-mockup {
