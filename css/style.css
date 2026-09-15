@@ -228,6 +228,7 @@ video {
 
 }
 .app-sec {
+  position: relative;
   display: flex;
   flex-direction: column;
   align-content: center;
@@ -239,26 +240,25 @@ video {
   margin: 15px;
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
+  display: block;
+  }
 
-  #readmore { 
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 50px;
-  padding: 8px 10px;
-  border: 1px solid #555;
+#readmore {
+  position: absolute;
+  left: 40px;
+  bottom: 40px;
+  z-index: 1;
+  padding: 12px 20px;
+  border: none;
   background-color: white;
   color: black;
-  text-decoration: none;
-  font-size: 2px;
-  font-weight: bold;
-  transition: 0.2s;
-
+  cursor: pointer;
 }
   
  
 
   
-}
+
 
 #app-mockup {
   margin-left: 120px;
