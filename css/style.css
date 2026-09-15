@@ -209,7 +209,7 @@ video {
   writing-mode: vertical-rl;
   right: 1px;           
   bottom: 50%;          
-  z-index: 1000;        
+  z-index: 1;        
   background-color: #000000; 
   color: white;          
   padding: 10px 10px;    
@@ -245,14 +245,26 @@ video {
 
 #readmore {
   position: absolute;
-  left: 40px;
-  bottom: 40px;
+  left: 70px;
+  bottom: 150px;
   z-index: 1;
   padding: 12px 20px;
   border: none;
   background-color: white;
   color: black;
   cursor: pointer;
+}
+
+#cycle-text {
+  position: absolute;
+  padding-right: 200px;
+  left: 70px;
+  bottom: 305px;
+  z-index: 1;
+  margin: 0;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
 }
   
  
