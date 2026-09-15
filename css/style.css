@@ -129,6 +129,29 @@ navbar input[type=text] {
 video {
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.50);
 }
+#hero-text {
+  position: absolute;
+  padding-right: 200px;
+  left: 70px;
+  bottom: 305px;
+  z-index: 1;
+  margin: 0;
+  color: white;
+  font-size: 42px;
+  font-weight: bold;
+}
+
+#hero-køb {
+  position: absolute;
+  left: 200px;
+  top: 800px;
+  z-index: 1;
+  padding: 12px 20px;
+  border: none;
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
 .features {
   display: flex;
   flex-direction: row;
@@ -191,7 +214,7 @@ video {
   padding: 8px 20px;
   border: 1px solid #555;
   background-color: white;
-  color: black;
+  color: #228b22;
   text-decoration: none;
   font-size: 11px;
   font-weight: bold;
