@@ -132,7 +132,7 @@ video {
 #hero-text {
   text-align: center;
   position: absolute;
-  
+  font-family:Georgia, 'Times New Roman', Times, serif;
   left: 175px;
   top: 450px;
   z-index: 1;
@@ -149,7 +149,7 @@ video {
   z-index: 1;
   padding: 20px 50px;
   border: none;
-  background-color: #545b62;
+  background-color: #262a2b;
   color: #228b22;
   cursor: pointer;
   font-size: 46px;
