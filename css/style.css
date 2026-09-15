@@ -15,10 +15,10 @@ header {
 
 body {
   font-family: Arial, Helvetica, sans-serif;
-  background: linear-gradient(to bottom, #545b62, #262a2b);
+  background-color: #f5f5f5;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  color: white; 
+  color: #262a2b; 
 }
 
 .features{
@@ -313,8 +313,9 @@ video {
 
 .Newsletter{
 text-align: center;
+background-color: #ffffff;
 font-size: px;
-margin-top: 20px;
+padding: 20px;
 }
 
 #nyheder{
@@ -339,11 +340,11 @@ align-self: flex-end;
 }
 
 footer {
-  background-color: lab(95.37% 1 0.34);
+  background-color: white;
   color:black;
   padding: 20px;
   text-align: center;
-  margin-top: 50px;
+  margin-top: 0px;
   font-family: Arial, Helvetica, sans-serif;
 }
 
