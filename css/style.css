@@ -145,12 +145,12 @@ video {
 #hero-køb {
   position: absolute;
   left: 200px;
-  top: 800px;
+  top: 900px;
   z-index: 1;
   padding: 20px 50px;
   border: none;
   background-color: transparent;
-  color: #228b22;
+  color: white;
   cursor: pointer;
   font-size: 46px;
   border-radius: 3px;
@@ -168,11 +168,10 @@ video {
   display: flex;
   flex-direction: column;
   margin: 5px;
-  padding: 10px 10px 1px 10px;
   justify-content: space-evenly;
   border-radius: 5px;
-  height: 25%;
-  width: 25%;
+  height: 24%;
+  width: 24%;
 }
 
 
