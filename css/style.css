@@ -9,8 +9,6 @@
 
 header {
   background-color: white;
-  
-  
 }
 
 body {
@@ -19,13 +17,27 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   color: #262a2b; 
+  scroll-behavior: smooth;
 }
 
 .features{
 padding: 10px;
-
 }
 
+.icon {
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: nowrap;
+  align-items: center;
+  margin-right: 50px;
+  margin-top: -60px;
+}
+.hicon {
+  font-size: 30px;
+  margin: 8px;
+  background-color: transparent;
+  border: none;
+}
 
 .logo {
     position: relative;
@@ -33,21 +45,6 @@ padding: 10px;
     margin: auto;
     background-color: white;
     border-color: white;
-}
-
-.cart {
-  position: absolute;
-  margin-left: 95%;
-  margin-top: -100px;
-  width: 30px;
-  height: 30px;
-}
-.user {
-  position: absolute;
-  margin-left: 92%;
-  margin-top: -100px;
-  width: 30px;
-  height: 30px;
 }
 
 navbar {
