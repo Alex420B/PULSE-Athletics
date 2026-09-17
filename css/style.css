@@ -1,10 +1,8 @@
 
 * {
-
     padding: 0%;
     margin: 0%;
     box-sizing: border-box;
-
 }
 
 header {
@@ -244,8 +242,8 @@ video {
 .app-section {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  align-items: flex-start;
+  justify-content: center;
+  align-items: center;
   margin-bottom: 50px;
 
 }
@@ -256,14 +254,18 @@ video {
   align-content: center;
   text-align: left;
 }
-#cycle-pic {
-  height: 1000px;
-  width: 800px;
-  margin: 15px;
-  border-top-right-radius: 5px;
-  border-bottom-right-radius: 5px;
-  display: block;
-  }
+.cycle-pic {
+  height: 100%;
+  width: 1400px;
+  margin: auto;
+  border-radius: 8px;
+  display: flex;
+}
+.cycle-pic img {
+  height: 100%;
+  width: 100%;
+  object-fit: none;
+}
 
 #readmore {
   position: absolute;
@@ -289,24 +291,12 @@ video {
   font-weight: bold;
 }
   
- 
-
-  
-
-
 #app-mockup {
-  margin-left: 120px;
-  
+  position: absolute;
+  margin-left: 875px;
+  margin-top: -30px;
+  filter: drop-shadow(10px 10px 10px black);
 }
-#app-info-title {
-  padding-left: 230px;
-  padding-bottom: 10px;
-}
-#app-info {
-  padding-left: 120px;
-  padding-right: 75px;
-}
-
 .Newsletter{
 text-align: center;
 background-color: #ffffff;
