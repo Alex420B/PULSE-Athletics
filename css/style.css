@@ -254,10 +254,12 @@ video {
 }
 .cycle-pic {
   height: 100%;
-  width: 1400px;
+  width: 100%;
   margin: auto;
   border-radius: 8px;
   display: flex;
+  object-fit: cover;
+  
 }
 .cycle-pic img {
   height: 100%;
@@ -291,8 +293,8 @@ video {
   
 #app-mockup {
   position: absolute;
-  margin-left: 875px;
-  margin-top: -30px;
+  margin-left: 830px;
+  margin-top: 40px;
   filter: drop-shadow(10px 10px 10px black);
 }
 .Newsletter{
